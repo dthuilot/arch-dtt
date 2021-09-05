@@ -3,7 +3,7 @@
 # Author : David Thuilot
 
 # Time zone (Need to check this before to run the script)
-ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+ln -sf /usr/share/zoneinfo/US/Central /etc/localtime
 hwclock --systohc
 
 # Localization
