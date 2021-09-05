@@ -21,9 +21,11 @@ echo "127.0.1.1     lutetia.localdomain  lutetia" >> /etc/hosts
 # Install packages
 pacman -Syu --noconfirm iwd sudo grub efibootmgr os-prober git base-devel
 
+# Graphical things
+# pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
+
 # Grub
 echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=Grub
 grub-mkconfig -o /boot/grub/grub.cfg
 
-# Setup user and root TO DO 
