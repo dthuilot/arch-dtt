@@ -19,10 +19,16 @@ echo "::1       localhost" >> /etc/hosts
 echo "127.0.1.1     lutetia.localdomain  lutetia" >> /etc/hosts
 
 # Install packages
-pacman -Syu --noconfirm iwd sudo grub efibootmgr os-prober git base-devel
+pacman -Syu --noconfirm iwd sudo grub efibootmgr os-prober git base-devel vim nano
 
-# Graphical things
-# pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
+# Graphical drivers
+pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
+
+# Display manager
+pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter xmonad xmonad-contrib xmobar dmenu 
+
+# Graphical utilities
+pacman -S --noconfirm firefox
 
 # Grub
 echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
