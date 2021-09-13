@@ -66,5 +66,5 @@ arch-chroot /mnt
 ### Script arch-dtt.sh
 
 ```shell
-./arch-dtt
+./arch-dtt.sh
 ```
