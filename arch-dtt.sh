@@ -26,6 +26,7 @@ pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
 
 # Display manager
 pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter xmonad xmonad-contrib xmobar dmenu picom nitrogen terminator alacritty pulseaudio
+# This video could be helpful https://www.youtube.com/watch?v=JmPLbZQRgas to setup systemd etc..
 
 # Graphical utilities
 pacman -S --noconfirm firefox
