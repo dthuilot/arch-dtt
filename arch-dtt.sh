@@ -25,7 +25,7 @@ pacman -Syu --noconfirm iwd sudo grub efibootmgr os-prober git base-devel vim na
 pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
 
 # Display manager
-pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter xmonad xmonad-contrib xmobar dmenu 
+pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter xmonad xmonad-contrib xmobar dmenu picom nitrogen terminator alacritty pulseaudio
 
 # Graphical utilities
 pacman -S --noconfirm firefox
