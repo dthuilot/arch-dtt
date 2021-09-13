@@ -62,3 +62,9 @@ genfstab -U /mnt >> /mnt/etc/fstab
 ```shell
 arch-chroot /mnt
 ```
+
+### Script arch-dtt.sh
+
+```shell
+./arch-dtt
+```
