@@ -25,7 +25,7 @@ pacman -Syu --noconfirm iwd sudo grub efibootmgr os-prober git base-devel vim na
 pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
 
 # Display manager
-pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter xmonad xmonad-contrib xmobar dmenu nitrogen terminator alacritty pulseaudio
+pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter xmonad xmonad-contrib xmobar dmenu nitrogen xterm alacritty pulseaudio
 # This video could be helpful https://www.youtube.com/watch?v=JmPLbZQRgas to setup systemd etc..
 
 # Graphical utilities
